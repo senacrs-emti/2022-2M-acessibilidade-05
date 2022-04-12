@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #b3d9ff;
+margin-bottom: 50px;
+}
+
+div.col{
+   font-size: large;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+div.colespaco{
+    margin-left: 30px;
+}
