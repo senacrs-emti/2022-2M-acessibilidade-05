@@ -14,3 +14,24 @@ div.col{
 div.colespaco{
     margin-left: 30px;
 }
+
+.botao{
+    position: fixed;
+    left: 85.5%;
+    width: 50px;
+    height: 50px;
+}
+.botao1{
+    position: fixed;
+    left: 90%;
+    width: 50px;
+    height: 50px;
+}
+
+p#final{
+    margin-left: 50px;
+}
+h1{
+    margin-left: 50px ;
+
+}
