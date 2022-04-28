@@ -54,7 +54,24 @@ h1{
         float: right;
     }
 }
-seletor{
-    border: 10px;
-    background-color: forestgreen;
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@media only screen and (max-device-width: 900px) {
+.quadrado {
+    width: 700px;
+    height: 100px;
+    background-color:blue;
+    margin-right:100px;
+    
+  }
+}
+
+
+  P#feito2{
+    margin-left: 50px;
+   
+  }
+P#feito{
+    margin-left: 50px;
 }
