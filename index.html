@@ -82,7 +82,10 @@
                 <iframe width="500" height="290" src="https://www.youtube.com/embed/8wm0pLoPu9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <b>Feito por:</b>
             <br>
-            Bruno Garcia, Clarice Seligman, Douglas Oliveira, Pedro Cezar Maier
+            Bruno Leal
+            <a href="https://github.com/ClariceLinden">Clarice Seligman</a>,
+             <a href="https://github.com/douglas3456">Douglas Oliveira</a>,
+             <a href="https://github.com/zigvogel">Pedro Cezar Maier</a> 
             </div>        
 
             <div class="col colespaco" id="demo2">
@@ -143,14 +146,24 @@
           <script>
             new window.VLibras.Widget('https://vlibras.gov.br/app');
           </script>
-        </body> <!-- Fim do corpo da página -->
-       
-        <h1>Documentação:</h1>
+      
+      <h1>Documentação:</h1>
         <p id="final">
       Para fazer a ferramenta de aumento da fonte foi usado a propriedade fontSize <br>
        <br>
        1- No html criamos dois botões, um escrito A+ (para aumentar a letra) e outro escrito A- (para diminuir) - para isso usamos a propriedade button 
-        <br>
+      <br>
+       button type="button" class="botao"onclick="sizesuperlarge()">A+/button> 
+        
+       button type="button2" class="botao1"onclick="sizeLarge()">A-/button>
+        
+         function sizeLarge() {
+            document.getElementById("demo").style.fontSize = "large";
+            document.getElementById("demo2").style.fontSize = "large"; 
+        }
+                   
+            
+       <br>
         2- No css ajustamos os botões para ficar do tamanho que queremos usamos width e height 
         <br>
       3- Ainda no css botamos a propriedade position: fixed e a propriedade left: 90% e left: 95% para fixar no canto superior esquerdo da tela 

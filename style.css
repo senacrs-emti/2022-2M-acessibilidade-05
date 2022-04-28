@@ -17,15 +17,17 @@ div.colespaco{
 
 .botao{
     position: fixed;
-    left: 85.5%;
+    left: 91.5%;
     width: 50px;
     height: 50px;
+    float:right
 }
 .botao1{
     position: fixed;
-    left: 90%;
+    left: 96%;
     width: 50px;
     height: 50px;
+    float: right;
 }
 
 p#final{
@@ -34,4 +36,25 @@ p#final{
 h1{
     margin-left: 50px ;
 
+}
+@media only screen and (max-device-width: 900px) {
+    .botao{
+        position: fixed;
+        left: 91.5%;
+        width: 50px;
+        height: 50px;
+        float:right
+    }
+    .botao1{
+        position: fixed;
+        top: 150px;
+        left: 91.5%;
+        width: 50px;
+        height: 50px;
+        float: right;
+    }
+}
+seletor{
+    border: 10px;
+    background-color: forestgreen;
 }
